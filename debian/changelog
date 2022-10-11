@@ -1,0 +1,27 @@
+libsyntax-perl (0.004-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 01:11:44 +0100
+
+libsyntax-perl (0.004-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * debian/copyright: update to Copyright-Format 1.0.
+  * Update years of upstream and packaging copyright.
+  * Bump Standards-Version to 3.9.3 (no changes).
+  * Set debhelper compatibility level to 8.
+  * Update versioned (build) dependencies.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 09 Jun 2012 00:12:30 +0200
+
+libsyntax-perl (0.003-1) unstable; urgency=low
+
+  * Initial release (closes: #615030).
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 25 Feb 2011 03:49:38 +0100

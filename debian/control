@@ -1,0 +1,29 @@
+Source: libsyntax-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: perl,
+ libdata-optlist-perl,
+ libnamespace-clean-perl,
+ perl (>= 5.11.1) | libtest-simple-perl (>= 0.94)
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Standards-Version: 3.9.3
+Homepage: http://search.cpan.org/dist/syntax/
+Vcs-Git: git://git.debian.org/pkg-perl/packages/libsyntax-perl.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libsyntax-perl.git
+
+Package: libsyntax-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ libdata-optlist-perl,
+ libnamespace-clean-perl
+Description: pragma for activating syntax extensions
+ syntax is a Perl pragma for activating community-provided syntax extensions.
+ It is similar to, but much more extensible than, the "feature" pragma, since
+ it can load third-party extensions as well.
+ .
+ Because of the extensible nature of this module, there are no standardised
+ options. Please consult the documentation for specific syntax features to
+ learn about possible configuration options. See the are packages that have
+ names like: libsyntax-keyword-*-perl.
